@@ -7,6 +7,8 @@
 
 MD1 was turned off on the dipoles only. On 4,6,8-pole, the normal MD1 was played.
 
+The SC structure was SFTPRO -> MD1 -> MEAS
+
 [Link to Anton's notes](https://quartz.haochen.lu/02-Areas/MDs/Parallel-MD-2025-08-22)
 
 # Dp/p measurements

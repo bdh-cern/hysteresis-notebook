@@ -15,6 +15,8 @@ Messy MD which suffered from technical issues. Did a chroma sweep with MD1 on an
 
 When MD1 was off, 'full' zeros were played, i.e idle current on 2,4,6,8-poles ([[12-01-26 - Brendan-Anton Meeting]]). This was not ideal as usually RMD1 usually includes pulses on 6,8-poles. Nonetheless it shouldn't have caused much of an issue.
 
+SC was LHCION -> MD1 -> MEAS
+
 [Link to Anton's notes](https://quartz.haochen.lu/02-Areas/MDs/Dedicated-MD-2025-11-19)
 
 # Plots

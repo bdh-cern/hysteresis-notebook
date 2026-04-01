@@ -1,6 +1,8 @@
 
 Continued from [[14-02-26 MD - Chroma Measurements]] and [[17-02-26 MD - Chroma Measurements]].
 
+See [[24-02-26 - Alberto Meeting]] for some extra details.
+
 https://logbook.cern.ch/elogbook-server/#/logbook?logbookId=3121&dateFrom=2026-02-18T00%3A00%3A00&dateTo=2026-02-19T00%3A00%3A00&eventToHighlight=4466049
 
 - Plot: beam intensity loss over dp/p kick versus dp/p
@@ -17,8 +19,18 @@ https://logbook.cern.ch/elogbook-server/#/logbook?logbookId=3121&dateFrom=2026-0
 - Orbit correction (~5mm)
 
 H coefficients: -1.13936036e+05  9.03385686e+02  3.54442152e+00  2.66190460e+01
-
 V coefficients:  9.92367497e+04 -2.10199173e+02 -9.48581897e+00  2.65808647e+01
+
+Excluded cyclestamps:
+
+"1771420491735000000", <- not sure this is a real cyclestamp?
+
+1771420390935000000,
+1771420424535000000,
+1771420458135000000,
+1771420592535000000,
+1771420626135000000,
+1771420659735000000
 
 ![[Pasted image 20260218151709.png]]
 ![[Pasted image 20260218151728.png]]
@@ -46,8 +58,18 @@ V coefficients:  3.84221571e+04  2.48788443e+01 -5.77631787e+00  2.65799423e+01
 16:37:22 - 17:27:35
 
 H coefficients: -1.24468328e+05  9.40133871e+02  4.03727302e+00  2.66198319e+01
-
 V coefficients: 6772.46037932  233.38885915   -9.92367993   26.58038316
+
+Exclusions (first two dpps):
+
+1771429074135000000,
+1771429122135000000,
+1771429170135000000,
+1771429218135000000,
+1771429266135000000,
+1771429314135000000
+
+
 
 ![[Pasted image 20260218173309.png]]![[Pasted image 20260218173339.png]]
 
@@ -58,8 +80,41 @@ V coefficients: 6772.46037932  233.38885915   -9.92367993   26.58038316
 H coefficients: -7.67934202e+04  5.44100572e+02  2.17544563e-01  2.66200546e+01
 
 V coefficients:  4.05965111e+04  4.07550337e+01 -6.24036566e+00  2.65807239e+01
+
+Exclusions:
+
+1771432098135000000
+1771433106135000000
+1771433154135000000
 # Comparison
 
 ![[Pasted image 20260219104735.png]]
 
 ![[Pasted image 20260219104749.png]]
+
+
+
+| SC                                 | $\xi_H$ |
+| ---------------------------------- | ------- |
+| LHCINDIV + full MD1                | -0.06   |
+| LHCINDIV + flat MD1                | -0.15   |
+| LHCINDIV + flat MD1 w/ corrections | -0.01   |
+| SFTPRO + full MD1                  | -0.05   |
+| SFTPRO + flat MD1                  | -0.13   |
+| SFTPRO + flat MD1 w/ corrections   | -0.01   |
+
+# Losses
+
+Whole cycle:
+![[Pasted image 20260219125037.png]]
+
+Flat-top only:
+- This uses indices 2 and 700 from the BCT, which hopefully corresponds to the same beam time for each cycle
+![[Pasted image 20260219125111.png]]
+
+Normalised to injection intensity:
+![[Pasted image 20260219172848.png]]
+
+With exclusions added and binning the dp/p's:
+
+![[Pasted image 20260220112641.png]]

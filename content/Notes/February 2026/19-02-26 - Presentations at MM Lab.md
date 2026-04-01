@@ -1,0 +1,48 @@
+
+- Stefan Russenshuck - TUWien, Alberto's supervisor
+- Magentostriction - unrecognised systematic uncertainty for simulation
+- Single and double-layer potentials?
+- Proximity effects between magnets in static case well-understood
+- MBSE - Model-Based Systems Engineering
+
+- Manfred Kaltenbacher - IGTE (Graz)
+- openCFS.org
+	- FEM code for magnetic analysis/simulation
+- pyMML labsoftware - ask Karo?
+- $B = \mu (H+M) = \mu H+J$ where $\mu = \mu_r \mu_0$  
+- B coil - simple, you know the flux
+- H coil - difficult; you would want to measure directly on the surface (equipotential?) but this is difficult. You don't know necessarily what you're measuring.
+- Hysteretic effects coming into effect on joins between different materials' causes degredation in field (field quality?)
+- Hysteresis is inherently irreversible, therefore leads to increase in entropy in the system
+- Anders Bergqvist - magnetic vector hysteresis model
+- Magnetisation $M$ is magnetic (dipole) moment/volume (density of magnetic moment) 
+	- $M = \chi H$ where chi is susceptibility
+- March 2026 Kaltenbacher and Pechstein - details of energy-based hysteresis model
+- H - Hrev - Hirr = 0
+- Irreversible field modelled with with a pinning force $\kappa$ which 'pulls' the field into hysteretic behaviour after it is strong enough
+	- Concept of friction; if the force is large enough the magnetisation 'moves', but not before
+	- $H^{irr} = \kappa e^{irr}$, e being a unit vector of the dircetion of the hysteretic effect - but this relation only holds above a threshold kappa
+	- $B$ vs $H$ curve; permeability is being changed to make the curve
+- Reversible magnetisation is 'non-hysteretic' field (would make sense with entropic argument)
+- Hysteretic effect is distribution of weighted pinning 
+- D. Domenig 2025 2024 IEEE trans
+- Magnetostriction (stress effects) add an additional 30% loss when taken into account during hysteresis modelling
+	- Isotropic materials are made anisotropic by stress effects
+	- Stress effects the 'anhysteretic curve'
+- H and A-based formulations?
+- Concept of pinning force reveals difficulties for mathematically inverting the hysteresis 'operator', because a change in input (force) does not necessarily produce a change in output (field). This means that it is impossible to get a derivative. Thus one cannot associate a change in hysteric field with a certain pinning force (?)
+
+- Marco Buzio TE-MSC-MMM
+- 1 G field error -> 1-5mm radial offset
+- Multiple components in eddies; field lines in different directions induce eddy currents with e.g. different time constants 
+- LHC multi-aperture quadrupoles can get 'magnetically polluted'
+	- Can operate in FD or FF modes
+	- If operated in FF mode it is impossible to demagnetise to put back into FD mode
+- Magnet adter-effect viscosity
+	- Magnetisation delay on TOP of eddie currents, due to irreversible diffusion of impurities (check)
+- One shot degaussing using only two ramps - requires determination of a special B,H where this is possible
+- Jiles-Atherton: physics-based ODE models, not useful and used only as toy models now
+- Preisach - non-locality (?) 
+- Hybrid electrical model of PS dipole: invidual modelling of various magnet components, not yet capable of reproducability, but promising
+- 'Play operator'?
+- 2min local transients present in NMR data with little explanation from eddies or other effects

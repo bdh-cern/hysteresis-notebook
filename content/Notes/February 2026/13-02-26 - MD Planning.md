@@ -61,4 +61,4 @@ For next week:
 	- SFTPRO - flat 26GeV MD1 - SFT_PRO_MD_aperture_2025_V3
 	- LHCINDIV - flat 26GeV MD1 - SFT_PRO_MD_aperture_2025_V3
 	- (All flat on 2,4,6,8-poles)
-- ...to make sure chromaticity has been restored.
+- ...to make sure chromaticity has been restored.l
