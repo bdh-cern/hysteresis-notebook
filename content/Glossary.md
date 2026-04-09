@@ -1,3 +1,7 @@
+
+See also [[Abbreviations]]
+
+
 ### MD
 
 'Machine Development'. Used in two contexts:
@@ -30,3 +34,30 @@ Linux service for AFS.
 # AFS
 
 Andrew File System. The old file system which is now largely surplanted by EOS.
+
+# TSU
+
+Trigger Synchronisation Unit. Synchronises beam dump requests with the Beam Abort Gap (BAG) upon request from clients such as the interlock system.
+
+![[Pasted image 20260407160253.png]]
+
+# BAG 
+
+Beam Abort Gap. A gap in the beam which allows the dump kicker to rise to full power.
+
+![[Pasted image 20260407153258.png]]
+
+The kicker rises as the gap passes so that it is already at full field by the time the next particles arrive. The beam thus experiences a constant dumping kick.
+
+# Interlock
+
+Genereally the Beam Interlock System (BIS). A hierarchical system which automatically dumps the beam if a fault is detected in the operation of the accelerator.
+
+# MKB
+
+Dilution kicker magnet. There are vertical and horizontal versions (MKBV, MKBH). These are kicker magnets which sweep the beam over the target to dilute the energy received at any one point.
+
+# BETS
+
+[[Beam Energy Tracking System (BETS)]]. A component of the dumping system(s). The BETS binds the deflection strength of the kicker magnets to the energy of the beam such that, if triggered, they will ramp to the right energy and thus kick the beam onto the correct dumping trajectory.
+

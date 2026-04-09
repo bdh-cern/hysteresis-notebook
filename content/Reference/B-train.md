@@ -22,3 +22,13 @@ The system consists of two above-ground dipoles connected in parallel with the S
 | SR.BMEAS-SP:BtrainStatus:btrainData.         |       | Flag for real (0) or simulated data (1) for spare B-train                              |
 | SR.BMEAS-SP:MarkerAcquisition:m1BCorrection  | G     | The last correction applied by the the NMR system on the spare B-train                 |
 | SR.BMEAS-SP:MarkerAcquisition:m1MarkerBLevel | G     | The 'level' at which the NMR correction above was applied (don't know what this means) |
+
+# Pics
+
+![[Pasted image 20260409162721.png]]
+
+![[Pasted image 20260409162702.png]]
+
+![[Pasted image 20260409162730.png]]
+
+![[Pasted image 20260409162740.png]]

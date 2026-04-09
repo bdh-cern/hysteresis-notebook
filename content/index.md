@@ -7,6 +7,7 @@ Schedule for 2026: [[Schedule 2026]]
 Reference for the SPS: [[SPS| SPS reference]]
 Reference for the B-train: [[B-train | B-train reference]]
 Glossary: [[Glossary]]
+Technical help: [[Technical Help]]
 
 # This Project
 
