@@ -1,0 +1,21 @@
+
+- Met Panos to discuss his analysis of the tune shift is observed after a switch from a SFT supercycle to a SFT+LHC supercycle
+- His CodiMD [here](https://codimd.web.cern.ch/N7QQQ_VeQmCwJvShVtODmw#SFTPRO-tune-shifts-during-SC-changes-2025---2026)
+- Two relevant SCs:
+	- SFT-SFT-SFT-MD1 (SC1)
+	- SFT-LHC-MD1 (SC2)
+- The process was this:
+	- Panos identified events where the SPS switched from playing SC1 to SC2.
+	- He selected every SFT in a certain time-window before and after the switch
+	- He measured the tune 500ms after each first injection on each SFT. He averaged this to get a value for the tune during the injection plateau before and after the switch
+	- The difference in these two tunes is the reported $\Delta Q$.
+- It was observed that $\Delta Q\simeq 0.01$ in 2025 and $\Delta Q\simeq 0.015$ in 2026
+	- It is suspected that this is because the flattening of MD1 has altered the minor hysteresis loop which SFTPRO traces. Notably, the flattening of MD1 would cause a slight decrease in the quadrupole field, leading to less focusing (although one would expect this to actually reduce the tune).
+- This is relevant because in 2025, the operators did not need to make a tune trim when changing SC, but at the start of 2026 a trim had to be made for the beam to survive transition (at ~20GeV; after the second SFT injection).
+- However, the problem has mysteriously resolved itself and in recent weeks of 2026. The same 0.015 tune shift occurs, but the beam is now passing transition very nicely. 
+- Another mystery is that the beam loss in the SC2 was apparently observed even on the very first SFTPRO. This is surprising because the history this SFTPRO sees should be exactly the same as e.g. the last SFTPRO in SC1, since at this point the first LHC of SC2 has not yet been played.
+- The tune shift is static; it does not decay over the course of the supercycle. This means that a trim is definitely needed (we cannot wait for it to disappear). However, it also means that perhaps it could be automated if it becomes an issue again. 
+- Plan:
+	- Panos will adjust the analysis scripts to reduce some identified sources of bias, although these are not at all likely to change the broad results.
+	- I will take the scripts and run them again but for analysis of spill quality instead of tune
+	- We will confirm with Stephane that the losses were being observed in the very first SFTPRO of the new cycle.

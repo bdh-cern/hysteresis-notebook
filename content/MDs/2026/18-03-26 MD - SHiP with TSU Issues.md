@@ -23,3 +23,7 @@ The plain SC didn't work (TSU red for beam injection on measurement cycle). This
 ![[Pasted image 20260407160107.png]]
 
 However, subsequent MDs performed by [Francesco and Nicolas (20th)](https://logbook.cern.ch/elogbook-server/#/logbook?logbookId=424&dateFrom=2026-03-20T06%3A30%3A01&dateTo=2026-03-20T12%3A30%3A01&eventToHighlight=4515468) and [Kevin and Tirsi (31st)](https://logbook.cern.ch/elogbook-server/#/logbook?logbookId=424&dateFrom=2026-03-31T15%3A00%3A00&dateTo=2026-03-31T22%3A59%3A00) confirmed that Ship is, in fact, fine. Rather, there is probably a timing issue with the measurement cycle (MD_14GeV_CHROMA_No_Ramp_2026_V1). We need to do a new MD to remedy this so it can actually be used.
+
+![[Pasted image 20260417114123.png]]
+
+![[Pasted image 20260417114129.png]]

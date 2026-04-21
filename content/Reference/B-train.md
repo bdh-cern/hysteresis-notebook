@@ -11,6 +11,18 @@ The system consists of two above-ground dipoles connected in parallel with the S
 - 'Bdot' is used to refer to $\dot{B}$, i.e. the rate of change of $B$ with time.
 	- Bdot is really the only thing the RF team cares about because it drives the $\dot{p}$ during acceleration. Integration drift on the operational B-train is therefore irrelevant to them.
 
+# Drift Correction
+
+- B-train uses an NMR set to 0.11 T to perform correction of the integration drift of the fixed coil measurement.
+- This correction happens on all cycles (MD1, LHC, SFTPRO, etc).
+- For each cycle a time-window is defined where this field strength is expected to be found. If/when the field moves through the value during the window, the measurement is re-zeroed (or more precisely, reset to 0.11 T).
+- The correction usually occurs right before injection, but for SFTPRO it in fact occurs right **after** injection, at the start of the ramp.
+- There is an app to track the drift correction [here](https://wrap.cern.ch/app/207860)
+
+Example of the LHC marker window (the end of the window is presumably just the end of the chart):
+
+![[Pasted image 20260410134029.png]]
+
 
 ## Important Variables
 
