@@ -42,3 +42,14 @@
 - Small tune and momentum corrections
 - First trim: 19:19:45
 - Restored to dpp=0: 19:46:36
+
+# Analysis
+
+- Comparing the complete evolution of the tune components after the SFTPRO, there's a general upward trend in the chroma
+	- Can't compare the tune curves over different cycles as these were corrected for
+
+![[Pasted image 20260421150900.png]]![[Pasted image 20260421150906.png]]![[Pasted image 20260421150912.png]]
+
+The decay does indeed seem to be consistent with the 1s time-constant decay Alberto mentioned:
+
+![[Pasted image 20260421162749.png]]![[Pasted image 20260423140721.png]]![[Pasted image 20260423140725.png]]
