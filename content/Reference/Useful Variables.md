@@ -13,6 +13,18 @@ ParameterDataQuery.builder(spark)
 )
 
 data=data_query.select(Variable)
+
+# or:
+
+data_query = DataQuery.getForVariables(
+spark=spark,
+system="CMW",
+start_time=start_time,
+end_time=end_time,
+variables=[list of DEVICE:PROPERTY:VARIABLE],
+field_aliases={"OLD_NAME": "new_name"},
+)
+
 ```
 
 | Device/Property                      | Variable(s)                            | Timber Variable        | Description                                                                                                                                                                                                                                                   |
