@@ -7,7 +7,7 @@
 	- Sensitivity analysis of where the decay starts
 - IPAC paper on 15th of May
 	- Measurements of tau in the dipole magnet in 867
-- What is our focus for [[06-05-26 MD]]?
+- What is our focus for [[06-05-26 MD - Magnetic Calibration, Flat-top Studies]]?
 
 
 ![[Pasted image 20260423162831.png]]

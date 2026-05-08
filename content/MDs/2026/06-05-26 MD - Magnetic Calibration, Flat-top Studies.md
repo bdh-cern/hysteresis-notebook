@@ -20,7 +20,7 @@ SFT_PRO_MTE_East_extraction_L4780_2026_V2_Clone (SFTPRO3)
 - Only played SC1 -> SC2 -> dyneco SC2 (not back again as planned)
 - LHC was played both with and without beam
 - Nice clean data taken
-- On 07-05-2026, Carlo, Alberto and I discussed the noise on the B-train. Carlo thinks that the noise was reduced for all data taken. We thought it was only on CALIBRATION.
+- On 07-05-2026, Carlo, Alberto and I discussed the noise on the B-train. Carlo thinks that the noise was reduced for all data taken. 
 - Magnets was of the impression that the RF was playing on CALIBRATION, but this was most likely not the case. Will try to find some way to tell if RF was playing or not.
 
 # Hysteresis

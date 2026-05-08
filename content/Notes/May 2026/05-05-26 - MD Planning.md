@@ -5,7 +5,7 @@
 - Ask for SFT clone to specifically go in SFT* timing user
 - Any operational MTE beam on SFT clone, the operational INDIV on LHC_INDIV_4Inj_Q20_2026_Meas_Magnet, no beam on MD_26_L12000_Q20_2026_V1
 - Upstream machines can supply whatever beams they like to facilitate this, deliberately do not include beams in these machines to avoid confusion
-- See [[06-05-26 MD]]
+- See [[06-05-26 MD - Magnetic Calibration, Flat-top Studies]]
 
 Remarks for ASM, sent also to Chris and Johan:
 
