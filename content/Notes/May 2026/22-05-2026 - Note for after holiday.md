@@ -1,0 +1,6 @@
+- The B-train reference field node isn't publishing, but the PS one (from ages ago is). Figure out how
+	- Issue could be selector 
+- The PS one actually manages to skim the USER for every PS cycle, so see if this can be used for the SPS
+	- Also check SPS telegraph (telegram?) variables
+- Add spill quality, sharing quality to graph
+- Figure out how to sync this notebook again

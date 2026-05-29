@@ -1,0 +1,17 @@
+- Showed the plots demonstrating the decrease in I QF after 2026 SC interfaces. This is a trim from the operators. 
+	- Interestingly, they're applying a small IMAINS trim when they should be applying a bigger BHYS (or just B) trim. Judging by the MD, they could do a IMAINS trim 4x as big. Nonetheless, they are able to recover the spill quality well.
+	- They are also applying a QH trim
+- When we did our MD, we showed that we can get 80% (ca.) of our spill quality back just with a MBI correction. But maybe they operators are doing this tune trim because they need that last 20% which comes from the quads?
+	- This would be a subject for an MD
+		- Can we show the limits of only trimming B?
+		- Do we actually need a tune change?
+- UCAP:
+	- Device is good --- now modify to push trims to LSA-NEXT
+	- Instead of compensated field, push the necessary BHYS correction.
+	- Where is the actual B-field working point? 
+		- Take the flat-top of SFTPRO1 during the LHC SC: this might not be on the programmed B, but it could be that the operators have calibrated the tune etc to work with this (the working-point)
+		- Then if we correct at this point, we will actually disturb the spill unless we also recalibrate the tune etc. 
+		- Not an issue if we can recomission these beams.
+- The long decay
+	- If the temperature changes, but the currents are well-controlled, does it actually have any effect? Would have to look at the temperature's effect on the permeability of the magnet (specifically the yoke?) 
+

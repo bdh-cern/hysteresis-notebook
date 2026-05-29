@@ -32,3 +32,5 @@ LHC injection: 26 GeV
 
 - The SPS does not use B-train for magnetic feedback control, unlike the PS.
 - During ramping, the SPS uses the 'radial loop' to maintain the centred beam position
+
+![[Pasted image 20260528162512.png]]

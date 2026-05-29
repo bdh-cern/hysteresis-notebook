@@ -1,4 +1,4 @@
-
+****
 - Change in main B gives change in spill quality
 - Change in quads gives change in sharing error???
 - After LHC->dyneco x 6->dyneco x 6->SFT, no decay in SFT. Really flat, lower than usual SFT
@@ -80,8 +80,7 @@ SFT_PRO_MTE_East_extraction_L4780_2026_V2_Clone (SFTPRO3)
 		- Not worth speculating on this; will check the temperature data
 
 ![[Pasted image 20260508111044.png]]
-
-![[Pasted image 20260507170224.png]]
+Pasted image 20260507170224.png]]
 
 ![[Pasted image 20260507165708.png]]
 
