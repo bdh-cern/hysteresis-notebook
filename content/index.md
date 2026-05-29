@@ -1,3 +1,7 @@
+---
+title: Hysteresis Studies for the CERN Injectors
+---
+
 # This Project
 
 This project aims to reduce the effect of hysteresis in CERN's accelerators as part of Work Package 4 of the Efficient Particle Accelerator project.
@@ -12,7 +16,6 @@ Unfortunately, reality is not so simple. In fact, generating a field actually ch
 
 # Links
 
-
-![[Untitled 1.base]]
+![[index_base.base]]
 
 
