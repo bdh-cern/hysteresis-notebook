@@ -34,6 +34,9 @@ Example of the LHC marker window (the end of the window is presumably just the e
 | SR.BMEAS-SP:BtrainStatus:btrainData.         |       | Flag for real (0) or simulated data (1) for spare B-train                              |
 | SR.BMEAS-SP:MarkerAcquisition:m1BCorrection  | G     | The last correction applied by the the NMR system on the spare B-train                 |
 | SR.BMEAS-SP:MarkerAcquisition:m1MarkerBLevel | G     | The 'level' at which the NMR correction above was applied (don't know what this means) |
+Don't understand the difference between SamplesFromTrigger and CycleSamples. They seem to be blank at different times but otherwise overlap.
+
+![[Pasted image 20260610160413.png]]
 
 # Pics
 

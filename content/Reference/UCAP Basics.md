@@ -16,18 +16,18 @@ Cheat-sheet for raw UCAP (no AqFlow). For the full skill, see `aqflow-skills/ski
 
 ## Event builders
 
-| Builder | Trigger | Event content | Use when |
-|---|---|---|---|
-| `SubscriptionTriggered` | single triggering subscription | trigger value + latest N of `bufferedSubscriptions` | One device drives timing, others give context |
-| `SubscriptionTriggeredCycleStampGrouped` | single trigger | trigger + matching subscriptions whose cycle stamps match + buffered | Same, but also need cycle-aligned companions |
-| `SubscriptionTriggeredFieldGrouped` | single trigger | trigger + matching subs whose configured field matches + buffered | Same, but matched on a field value (e.g. SUPERCYCLE_NB) |
-| `GroupTriggeredCycleStampGrouped` | `triggerGroup` of subs, all with matching cycle stamp **or** `timeoutMs` | grouping subs + buffered | Need *all* of several devices aligned by cycle; tolerate missing data with timeout |
-| `GroupTriggeredAcquisitionStampGrouped` | as above but matched by acq stamp | ↳ | Devices use acq stamp, not cycle stamp |
-| `GroupTriggeredFieldGrouped` | as above but matched by field value | ↳ | Match on a domain-specific field |
-| `CombiningLatestValues` | any input | latest N values of every subscription | Snapshot all latest values as fast as possible; converter handles staleness |
-| `ForwardedSubscriptions` | any input | only the single value that just arrived | Process each subscription independently |
-| `FixedIntervalTriggered` | Java timer, every N ms | latest N buffered values | Periodic aggregation, housekeeping (not cycle-accurate) |
-| `Scheduled` | cron expression | latest N buffered values | Daily/weekly/etc. jobs |
+| Builder                                  | Trigger                                                                  | Event content                                                        | Use when                                                                           |
+| ---------------------------------------- | ------------------------------------------------------------------------ | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `SubscriptionTriggered`                  | single triggering subscription                                           | trigger value + latest N of `bufferedSubscriptions`                  | One device drives timing, others give context                                      |
+| `SubscriptionTriggeredCycleStampGrouped` | single trigger                                                           | trigger + matching subscriptions whose cycle stamps match + buffered | Same, but also need cycle-aligned companions                                       |
+| `SubscriptionTriggeredFieldGrouped`      | single trigger                                                           | trigger + matching subs whose configured field matches + buffered    | Same, but matched on a field value (e.g. SUPERCYCLE_NB)                            |
+| `GroupTriggeredCycleStampGrouped`        | `triggerGroup` of subs, all with matching cycle stamp **or** `timeoutMs` | grouping subs + buffered                                             | Need *all* of several devices aligned by cycle; tolerate missing data with timeout |
+| `GroupTriggeredAcquisitionStampGrouped`  | as above but matched by acq stamp                                        | ↳                                                                    | Devices use acq stamp, not cycle stamp                                             |
+| `GroupTriggeredFieldGrouped`             | as above but matched by field value                                      | ↳                                                                    | Match on a domain-specific field                                                   |
+| `CombiningLatestValues`                  | any input                                                                | latest N values of every subscription                                | Snapshot all latest values as fast as possible; converter handles staleness        |
+| `ForwardedSubscriptions`                 | any input                                                                | only the single value that just arrived                              | Process each subscription independently                                            |
+| `FixedIntervalTriggered`                 | Java timer, every N ms                                                   | latest N buffered values                                             | Periodic aggregation, housekeeping (not cycle-accurate)                            |
+| `Scheduled`                              | cron expression                                                          | latest N buffered values                                             | Daily/weekly/etc. jobs                                                             |
 
 ## Subscription configuration
 

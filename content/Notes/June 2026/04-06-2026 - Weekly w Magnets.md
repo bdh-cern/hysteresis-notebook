@@ -1,0 +1,6 @@
+- Successfully computed the magnetic length of dipoles at static fields
+- Can see hysteresis bands at both extraction and often injection
+- NMR can lock on injection if more that 1.2s
+- Data from 2026-05-26: playing LHCION2 
+- Turns out Jorg put in the MD1 cycle for the reproducability of the CNGS cycle
+- 

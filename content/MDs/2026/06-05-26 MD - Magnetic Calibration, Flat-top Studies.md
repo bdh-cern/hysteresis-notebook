@@ -1,9 +1,11 @@
+![[Pasted image 20260609140847.png]]
 ****
 - Change in main B gives change in spill quality
 - Change in quads gives change in sharing error???
 - After LHC->dyneco x 6->dyneco x 6->SFT, no decay in SFT. Really flat, lower than usual SFT
 - But after LHC->dyneco x4 ->SFT, there was still a decay in SFT.
 - Big drop is temperature effect? Slow drop is magnetic effect?
+****
 
 Cycles:
 
@@ -80,7 +82,7 @@ SFT_PRO_MTE_East_extraction_L4780_2026_V2_Clone (SFTPRO3)
 		- Not worth speculating on this; will check the temperature data
 
 ![[Pasted image 20260508111044.png]]
-Pasted image 20260507170224.png]]
+![[Pasted image 20260507170224.png]]
 
 ![[Pasted image 20260507165708.png]]
 

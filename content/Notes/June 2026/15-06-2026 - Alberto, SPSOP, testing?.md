@@ -1,0 +1,5 @@
+- Talked to Alberto about various varying variables. Send him:
+	- FDED_012_TT50001.POSST
+	- SX.CZERO-CTML/SuperCyclePlayed
+- SPSOP meeting:
+	- Received the go-ahead to test the compensator whenever.

@@ -1,7 +1,7 @@
 
 - Updating parameter type will necessitate updating the make rule definition
 - New make rule to add B and BHYS
-- BHYS added to database but now appearing in LSA next suite
+- BHYS added to database but not appearing in LSA next suite
 - Incorporation rule:
 	- PlateauIR to perform the little linear interpolation at the start of the flat-top
 	- Also could use decay IR to decay the interpolation backwards from the flat-top

@@ -1,0 +1,22 @@
+- Accidentally sent some non-drive trims to LSA's BHYS...
+- See [[11-06-26 - Weekly w Alberto, Alex]]
+- The incorporation looks fine at least: ![[Pasted image 20260612120630.png]]![[Pasted image 20260612120653.png]]
+- Unusually, the correction was positive, so I'm trying to work out if this was expected given the unintended configuration
+- BPROG at the time was about 1.8024
+	- NB I should change the reference time to 7000 as this seems to be more stable wrt to the rest of the flat-top
+- The measured B was about 1.7053 ![[Pasted image 20260612121231.png]]
+- The working point was probably off. So it makes sense that it was applying a positive correction since it was trying to get all the way up to 1.8024 T.
+- Not sure why it turned itself off. Nothing seems to have happened at 12:30. Afterwards it may have been publishing none-trims. See if I can find the log.
+	- Of course, it was because B+BHYS reached max_corrected_b (confirmed from settings: B+BHYS=1.8024+0.0019=1.8043=max_corrected_b)
+- From 12:20 to 12:23 there are a couple of zero-trims. I presume that this is device zeroing the correction when ecoTriggered is true. But then why are there also non-zero trims in the vicinity?
+	- Actually the eco is (mostly) working fine:
+		- Cycle at ~12:20:57: corrected
+		- Eco at ~12:21:11: zeroed
+		- Next cycle at late 12:21: corrected (a few seconds later at 12:22:08)
+		- Next at ~12:22:23: corrected
+		- Eco at ~12:22:37: zeroed 
+		- Eco at ~12:22:52: ***corrected!*** Improper. No idea why.
+		- Eco at ~12:23:06: zeroed
+		- No corrections until 12:26, which is proper.
+	- I wonder if the corrected eco event was just because ecoTriggered didn't arrive in time? Could wait a few seconds for it considering that we have a few BP before the next trim must be sent.
+- Again we see a flat B but a drift in spill length and sharing error - TT or quad hysteresis?

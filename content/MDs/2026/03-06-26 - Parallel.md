@@ -1,0 +1,19 @@
+- Testing UCAP compensator
+- Michi has changed the LSA hierarchy such that BHYS is now summed with B as required
+	- Make rule modification
+	- Hierarchy modification
+- Now running with drive=False. SFTPRO is in dyneco, so the correction is (correctly) 0.0.
+- Logs are confirming this
+- Also that earlier, it published None because the sc_class does't match
+- *If the cumulative eddies idea is correct, then it would be possible to simply look at the highest T planned in the SC, see if this is in saturation, then only correct the slow drift if so.*
+- Converter was correctly publishing the python trim, but the Java actor wasn't executing it
+- Thought this was because the drive was off, and to turn it on I would have to implement the working_point_b idea
+	- Base corrections on difference to a measured working value of B based on the field achieved after the slow decay, instead of the programmed B, which in practice is much higher and not actually desired
+- Unfortunately SPS had to switch back to ION cycles before this was fixed
+- Also turned out that I should have been using the trim.incorporate channel instead of trim.add --- latter was causing the actor to fail without causing errors in the transformer that I was monitoring
+- Device is now updated and available (but stopped) on UCAP-NODE-CCS-DSB
+	- Fixed the working point issue and a bug with max_correction
+	- Properly applying the trims with a new configuration parameter called 'start_of_correction_cycletime_ms' 
+- Added an incorporation rule for BHYS to PRO
+	- This makes a constant decay back towards the start of the FT (such that the BHYS is 0 at the end of the ramp and then linearly increases at the point of the trim) and then stays constant on the way forward
+ ![[Pasted image 20260603174854.png]]
