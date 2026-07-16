@@ -1,5 +1,5 @@
 
-Continued from [[14-02-26 MD - Chroma Measurements]] and [[17-02-26 MD - Chroma Measurements]].
+Continued from [[14-02-26 MD - Chroma Measurements]] and [[17-02-26 MD - More Chroma Measurements]].
 
 See [[24-02-26 - Alberto Meeting]] for some extra details.
 

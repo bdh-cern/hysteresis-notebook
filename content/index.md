@@ -14,6 +14,11 @@ When an electric current is run through a magnetic coil, a magnetic field is gen
 
 Unfortunately, reality is not so simple. In fact, generating a field actually changes the internal state of the magnet in an unpredictable way, which means that the next time the same current is applied the field will be subtly different. The magnet field is therefore not only dependent on the presently-applied current, but also any previously-generated field; in other words, the magnet field is influenced by its earlier values (its 'history'). This 'history dependence' is called 'magnetic hysteresis' or just 'hysteresis'.
 
+****
+
+[Github](https://github.com/bdh-cern/hysteresis-notebook)
+
+
 # Links
 
 ![[index_base.base]]

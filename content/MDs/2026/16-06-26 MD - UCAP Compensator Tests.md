@@ -1,0 +1,16 @@
+- Successfully tested the UCAP device for about 15 minutes during the MST intervention.
+- 16:15 to 16:30 local time
+- Used the CSS-DSB-TEST node on cs-crr-ml004
+	- Unfortunately I don't have admin rights for this node so I couldn't see any logs
+- The trims worked and the safety features kicked in correctly
+	- Clipped to acceptable range of BPROG+BHYS
+	- Reset to 0 when the supercycle changed
+- Not really an improvement of the decay, however I understand why (note UTC timestamps in this plot - they are 2 hours off) 
+	![[Pasted image 20260616175216.png]]
+- The B was very very high (1.9T). Luckily Alberto was here to informed me that I was using the wrong variable for measuring the field 
+- Correct is SR.BMEAS-SP-B-SD, I was using SR.BMEAS-B-ST, which I found in the hierarchy on timber. (The plot above uses the correct variable and I have updated [[Useful Variables]])
+- Because I have been relying on the wrong B, I would have had the wrong working point (probably too low), and as such the correction went to -5G before bottoming out
+- Looking at the observed decay, there was a -8G field change, which corresponds roughly to the expected -3G plus the -5G from BHYS.
+	- So in fact, the corrector overshot. If the working point had been set to 1.8141T (or even if bprog was used) then it probably would have worked okay.
+- I can probably just use the BPROG rather than a working point. I was only using the latter because I thought that the BMEAS and the BPROG were quite different even after the decay, although now I realise that this was probably just because of the wrong B variable
+- 

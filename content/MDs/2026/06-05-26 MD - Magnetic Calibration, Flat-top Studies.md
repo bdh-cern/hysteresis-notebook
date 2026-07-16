@@ -1,4 +1,7 @@
 ![[Pasted image 20260609140847.png]]
+
+NB: on 25th July, discovered above was incorrect (note difference in flat-top field before/after the first LHC cycle) and have regenerated it using correct reference point and B-train variable:
+![[md_6th_may_2026.png]]
 ****
 - Change in main B gives change in spill quality
 - Change in quads gives change in sharing error???

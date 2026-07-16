@@ -1,2 +1,0 @@
-- Plays in idle current
-- 

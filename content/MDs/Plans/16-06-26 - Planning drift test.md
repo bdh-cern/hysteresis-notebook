@@ -1,0 +1,6 @@
+- Want a lab experiment to test if the slow drift ([[29-05-26 - Temperature Considerations]], [[06-05-26 MD - Magnetic Calibration, Flat-top Studies]]) is a product of the eddy currents, as suggested to Alex and Alberto in [[21-05-26 - Weekly]].
+- General plan would be:
+	- ~10x LHC filling SCs to establish history
+	- ~40x pure SFT SCs to observe the decay
+- We can't play these exactly because the power supply can only output a limited amount of total current in a given period of time
+- However, if we play with long periods of ZERO between each cycle, we can make sure that the eddies decay to 0 before we reverse the field

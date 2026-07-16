@@ -3,3 +3,11 @@
 	- SX.CZERO-CTML/SuperCyclePlayed
 - SPSOP meeting:
 	- Received the go-ahead to test the compensator whenever.
+- Only had a very short window to test the device, but somehow now the trims didn't work, despite [[12-06-2026 'MD' - Accidental Testing]].
+- Asked Alex, then Michi, who told me:
+	- contact ucap support
+	- get elevated rbac on that node
+	- get role from ucap support
+	- ask spsop to add the role to the access maps to trim and for fcg/drive
+		- check with stephane for this
+	- or use UCAP-ELEVATED-SPSOP

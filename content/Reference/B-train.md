@@ -26,17 +26,30 @@ Example of the LHC marker window (the end of the window is presumably just the e
 
 ## Important Variables
 
-| Variable Name                                | Unit  | Description                                                                            |
-| -------------------------------------------- | ----- | -------------------------------------------------------------------------------------- |
-| SR.BMEAS-OP-B-SD:SamplesFromTrigger:samples  | G (?) | The operational B-train measurements for the SPS.                                      |
-| SR.BMEAS-SP-B-SD:SamplesFromTrigger:samples  | G (?) | The spare B-train measurements for the SPS.                                            |
-| SR.BMEAS-OP:BtrainStatus:btrainData          |       | Flag for real (0) or simulated data (1) for operational B-train                        |
-| SR.BMEAS-SP:BtrainStatus:btrainData.         |       | Flag for real (0) or simulated data (1) for spare B-train                              |
-| SR.BMEAS-SP:MarkerAcquisition:m1BCorrection  | G     | The last correction applied by the the NMR system on the spare B-train                 |
-| SR.BMEAS-SP:MarkerAcquisition:m1MarkerBLevel | G     | The 'level' at which the NMR correction above was applied (don't know what this means) |
-Don't understand the difference between SamplesFromTrigger and CycleSamples. They seem to be blank at different times but otherwise overlap.
+| Variable Name                                | Unit  | Description                                                                                 |
+| -------------------------------------------- | ----- | ------------------------------------------------------------------------------------------- |
+| SR.BMEAS-OP-B-SD:SamplesFromTrigger:samples  | G (?) | The operational B-train measurements for the SPS. Not drift corrected.                      |
+| SR.BMEAS-SP-B-SD:SamplesFromTrigger:samples  | G (?) | The spare B-train measurements for the SPS. Note that the 'spare' is the drift-corrected B. |
+| SR.BMEAS-OP:BtrainStatus:btrainData          |       | Flag for real (0) or simulated data (1) for operational B-train                             |
+| SR.BMEAS-SP:BtrainStatus:btrainData.         |       | Flag for real (0) or simulated data (1) for spare B-train                                   |
+| SR.BMEAS-SP:MarkerAcquisition:m1BCorrection  | G     | The last correction applied by the the NMR system on the spare B-train                      |
+| SR.BMEAS-SP:MarkerAcquisition:m1MarkerBLevel | G     | The 'level' at which the NMR correction above was applied (don't know what this means)      |
+|                                              |       |                                                                                             |
 
-![[Pasted image 20260610160413.png]]
+# Limitations
+
+There are various different B-train variables in NXCALs, all of which seem to have a different 'treatment' of the underlying data.
+
+The most reliable variable for absolute measurements of the field seems to be SR.BMEAS-SP-B-SD:SamplesFromTrigger. However, the drift correction seems to cause artefacts (see [[Dodgy Drifts]]) which can limit its usefulness for analysing the [[LHC -> SFT Drift]].
+
+![[Pasted image 20260703162739.png]]
+
+This variable also has an offset from the programmed B in LSA. This could be because of any number of things, such as bad calibration between B and I in LSA or between I and B in the B-train fluxmeter. It's likely that the actual field is neither that reported by the B-train nor that programmed in LSA.
+
+The B-train/LSA offset is about 120-140G and seems to be relatively constant over the course of months.
+
+![[Pasted image 20260703162840.png]]
+
 
 # Pics
 
