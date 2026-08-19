@@ -1,4 +1,5 @@
 
+- Is temperature a consideration in [[Slow Hysteresis Drift]]?
 - Observation about temperature:
 	- Flat-tops experience a long decay when going from LHC SC to SFT SC.
 	- The temperature is increasing, the field is going down with a decay constant of 20-30 cycles.

@@ -1,10 +1,14 @@
 See also:
 [[06-05-26 MD - Magnetic Calibration, Flat-top Studies]]
-[[23-06-2026 MD - Testing Drift Corrector]]
-[[LHC -> SFT Drift]]
+[[23-06-2026 MD - Testing Drift Corrector (no beam)]]
+[[Slow Hysteresis Drift]]
 [[Dodgy Drifts]]
 [[29-05-26 - Temperature Considerations]]
 [[17-06-26 - Drift Fitting]]
+
+# Slides for Operators
+
+![[Drift Compensator Operator's Meeting-2.pdf]]
 
 # Overview
 
@@ -64,7 +68,7 @@ $$
 		- *hys* is the field causes by hysteretic effects
 		- *sys* is the systematic error between the B-train and the programmed B
 
-Tested this in [[23-06-2026 MD - Testing Drift Corrector]] with good results.
+Tested this in [[23-06-2026 MD - Testing Drift Corrector (no beam)]] with good results.
 
 ![[Pasted image 20260709165358.png]]
 

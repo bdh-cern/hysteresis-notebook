@@ -1,6 +1,6 @@
 
 See also:
-- [[LHC -> SFT Drift]] 
+- [[Slow Hysteresis Drift]] 
 - [[17-06-26 - Drift Fitting]]
 - [[16-06-26 - Planning drift test]]
 - [[06-05-26 MD - Magnetic Calibration, Flat-top Studies]]

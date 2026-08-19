@@ -1,5 +1,6 @@
-Also on the 16th
+See write-up in [[Testing Drift Corrector - Write Up]].
 
+- Also on the 16th
 - Last-minute opportunity to test the drift corrector during a SHiP MD.
 - As of 1040, the SC is SFTPRO2, MD5, MD1, SFTPRO2, MD5, MD1
 - Both SFTPRO2 and MD5 are SHiP cycles (albeit slightly different)
@@ -25,13 +26,46 @@ Also on the 16th
 
 ![[Pasted image 20260715173909.png]]
 
-# More write-up here
-
+# Actual Test
+- After the MD was finished, I turned on the compensator and made sure it behaved as expected.
+- No corrections were applied initially as the field was already at acceptable levels.
+- Dwane played a single LHC SC at about 18:57, which immediately pushed the magnets to the hysteretic state
+- Moved back to SFT. The compensator fixed the drift
+	- There was still a loss alarm, although usually this happens several times after SC change, and this time it only happened once.
+- I observed that the effSpillLength drifted and sharing error improved and held steady
+	- This is the contrary of in [[06-05-26 MD - Magnetic Calibration, Flat-top Studies]]. There, in the static case of the LHC SC, we saw that the dipole correction fixed the spill length properly but not the sharing factor.
+- When we tried with SFT->LHC in the MD, the effSpillLength was fixed and the sharing error was still off
+- When we look at a normal LHC->SFT change, both factors drift
 - Weird note: sharing error increased when they switched to longer flat-bottom (HIRADMAT1 -> HIRADMAT2)
-To do after holiday:
-- hysteresis GUI
-- adding a tune plot to the time-series plots above
-- testing after SC change with tune trim
-- GUI for latest trims published to SPS
-- Small NN hysteresis predictor
-- Instructions for SPS OP
+
+![[Pasted image 20260730120640.png]]
+
+# Tune Considerations
+
+![[Pasted image 20260730122253.png]]
+
+Looking at 400-900ms in beam time on the tunes (thus not measured in the same place as the reference time etc):
+
+![[Pasted image 20260730160557.png]]
+
+Then for the start of the FT (4260-4460ms I think) - (strange periodicity on QH):
+
+![[Pasted image 20260730161146.png]]
+
+This is because there's a very static peak at 0.65 visible in the playback. This might be because of the damper, although we presumed this was off. In any case the tune measurements after the debunching (at start of FT) are useless.
+
+![[Pasted image 20260730173343.png]]
+
+Looking at the end of the ramp (4150 - 4250ms) you can actually see the tune changes:
+
+![[Pasted image 20260730173132.png]]
+
+During the run with Dwane, we can see that the tune is actually corrected for by the compensator as well. So why does he still have to make FT tune trims?
+
+![[Pasted image 20260730173631.png]]
+
+The QF I trims don't seem to have any effect on the actual tune in either case. Checked - this makes sense because they only play with the tune later:
+
+![[Pasted image 20260730161611.png]]
+
+![[sftpro1_reference_points.png]]

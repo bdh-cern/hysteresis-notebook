@@ -1,6 +1,6 @@
 Looking at strange drift profiles which my data cleaning isn't detecting for whatever reason.
 
-More detail in [[LHC -> SFT Drift]]
+More detail in [[Slow Hysteresis Drift]]
 
 | Start               | End                 | Plot                                 |
 | ------------------- | ------------------- | ------------------------------------ |

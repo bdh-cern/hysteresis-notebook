@@ -40,7 +40,7 @@ Example of the LHC marker window (the end of the window is presumably just the e
 
 There are various different B-train variables in NXCALs, all of which seem to have a different 'treatment' of the underlying data.
 
-The most reliable variable for absolute measurements of the field seems to be SR.BMEAS-SP-B-SD:SamplesFromTrigger. However, the drift correction seems to cause artefacts (see [[Dodgy Drifts]]) which can limit its usefulness for analysing the [[LHC -> SFT Drift]].
+The most reliable variable for absolute measurements of the field seems to be SR.BMEAS-SP-B-SD:SamplesFromTrigger. However, the drift correction seems to cause artefacts (see [[Dodgy Drifts]]) which can limit its usefulness for analysing the [[Slow Hysteresis Drift]].
 
 ![[Pasted image 20260703162739.png]]
 

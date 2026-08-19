@@ -1,0 +1,14 @@
+- Can't measure tune on ions because it's completely debunched
+	- Even with excitation
+- Parallel MD:
+	- Use an MD user to play a SHiP cycle
+	- Change supercycles
+	- Measure tune changes at flat-top
+	- Chromaticity would have to be on 'extraction settings'
+		- Use the 'natural chroma' of the machine
+	- Low intensity, not extractable
+- SFTION, long parallel, SHiP, Md1
+- Radial loop off: position incorrect, which causes feeddown, but this might be desirable compared to being off in energy (which changes tune via chroma)
+- Look up radial loop and synchroloop
+	- Which had the lesser effect on tune (via chromaticity)
+	- 
