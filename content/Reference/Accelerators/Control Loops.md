@@ -7,6 +7,7 @@ aliases:
 # References
 [P.Baudrenghien, Low-Level RF](control_loops.pdf)
 [Arthur Spierer, OP Shutdown Lectures: RF Beam Control](shutdown_lectures_rf_beam_control.pdf)
+[S. Aumon, Radial Loop Pickups](radial_loop_aumon.pdf)
 
 
 # Oscillations

@@ -9,9 +9,6 @@ The BETS consists of several subsystems:
 - Beam Energy Interlock (MEI) module
 - The State Control and Surveillance System (SCSS)
 
-There are two groups of magnets involved:
-
-- The 
 
 
 ![[Pasted image 20260409125222.png]]
