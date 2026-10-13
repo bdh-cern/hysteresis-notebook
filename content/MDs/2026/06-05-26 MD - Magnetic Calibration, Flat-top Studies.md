@@ -2,6 +2,7 @@
 
 NB: on 25th July, discovered above was incorrect (note difference in flat-top field before/after the first LHC cycle) and have regenerated it using correct reference point and B-train variable:
 ![[md_6th_may_2026.png]]
+![[Pasted image 20260902175922.png]]
 ****
 - Change in main B gives change in spill quality
 - Change in quads gives change in sharing error???
@@ -66,6 +67,9 @@ SFT_PRO_MTE_East_extraction_L4780_2026_V2_Clone (SFTPRO3)
 - 17:50 - Back to SC4.
 	- Similar idea to before: dyneco but now on SC4, then change to SC3.
 	- Still long drift of sharing and spill
+
+**In the playback, I an see a kick on at 1200ms (during the plateau). I don't know if this was an accident or what.**
+
 ## Some conclusions
 
 - It may be possible to correct spills quality based only on dipole B

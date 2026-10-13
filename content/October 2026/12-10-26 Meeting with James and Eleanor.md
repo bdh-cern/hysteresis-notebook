@@ -1,0 +1,3 @@
+- SPS turn-on issues in 2029
+- Hysteresis on corrector dipoles on SHiP
+- Remove MD1 for SHiP

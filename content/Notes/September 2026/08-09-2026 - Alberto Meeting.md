@@ -1,0 +1,14 @@
+- meeting with Jonnes
+- Abishek and Alberto testing the variation of the dipole fields along the lengths of the dipoles, including at the end plates
+	- Find the local-> integral function
+	- Wondering if it's constant for different current functions 
+- Alberto's model:
+	- Inputs:
+		- Transfer function
+		- Energy-based hysteresis
+		- Eddie current triple-exponential fit
+		- Thermal drift (from textbook - not measured)
+		- Creep term (currently at zero)
+	- Outputs:
+		- Absolute field
+- Carlo received Anton's draft PhD

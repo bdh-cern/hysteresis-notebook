@@ -63,3 +63,10 @@ Dipolar and quadrupolar fields produce **linear** optics. Sextupoles and above g
 Weak focusing a natural focusing effect arising from circular motion (or, as some would say, arising only from the dipoles). Particles with some deviation from the reference orbit, but nonetheless moving in a perfect circle, will oscillate around either side, resulting in a low tune.
 
 ![[Pasted image 20260811173206.png]]
+
+# Beam Rigidity
+
+Beam rigidity is given by:
+
+$$\text{rigidity} = B \rho = \frac{p}{e}$$
+where B is the bending field, $\rho$ the radius, and p the momentum.

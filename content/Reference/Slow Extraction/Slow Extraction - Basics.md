@@ -21,9 +21,11 @@ The red line delineates the unstable (resonant) region. As the beam is pushed in
 
 The spill gains momentum over time, since particles with the lowest momentum are extracted first. This is because the beam has negative chromaticity (-1); when the momentum is ramped, the tune of the beam decreases, moving the particles into the resonance from above[^1].
 
+![[Pasted image 20260819115809.png|605]]
+
 # Resonance Stop-band
 
-The stop-band of the resonance is the tune range (around $1/3$) in which particles above a specific betatron amplitude $J$ are unstable. It is given by:
+The stop-band of the resonance is the tune range in which particles above a specific betatron amplitude $J$ are unstable. It is given by:
 
 $$|\delta Q| = \sqrt{\frac{J}{24\sqrt{3}\pi}}|S|$$
 

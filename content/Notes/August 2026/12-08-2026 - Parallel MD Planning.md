@@ -10,5 +10,6 @@
 - SFTION, long parallel, SHiP, Md1
 - Radial loop off: position incorrect, which causes feeddown, but this might be desirable compared to being off in energy (which changes tune via chroma)
 - Look up radial loop and synchroloop
-	- Which had the lesser effect on tune (via chromaticity)
-	- 
+	- Which has the lesser effect on tune (via chromaticity)
+
+MD executed: [[13-08-2026 MD - Tune Drifts]]

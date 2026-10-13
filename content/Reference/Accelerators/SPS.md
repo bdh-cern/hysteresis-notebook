@@ -1,4 +1,4 @@
-	# General Notes
+# General Notes
 
 - The SPS typically uses beam/injection time (not cycle time)
 # Energy/Momentum Points

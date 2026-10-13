@@ -40,6 +40,8 @@ The radial loop is important around transition. This is because of singularities
 
 The radial loop is important for fixed-target beams, as the SPS crosses transition during the ramp. However, beams destined for the LHC are injected into the SPS above transition, so the radial loop isn't required.
 
+The radial loop is effectively frozen during the extraction process (the frequency is locked at the last one before extraction). This is because the BPMs lose signal.
+
 # Synchro-Loop
 
 The synchro-loop keeps the RF frequency 'softly' locked onto a synthetic frequency. The synchro-loop is required during machine-machine transfer, as the buckets of the injecting and receiving machines must be coordinated.
@@ -62,3 +64,4 @@ In the below, one can see the timings for SFTPRO1: Phase loop and synchro-loop a
 
 ![[Pasted image 20260819095922.png]]
 
+From the looks of it, the synchro-loop is overwritten by the radial loop if both are left on at the same time. I am basing this on observations of SFTION1, which has the synchro left on the whole time, but a huge error when the radial turns on as well (as reported by the BC Mega Drive). So in the above example for SHiP, the radial loop takes over from the start of the ramp and never turns off. 

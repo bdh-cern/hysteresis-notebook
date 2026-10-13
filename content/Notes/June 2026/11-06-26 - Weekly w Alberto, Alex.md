@@ -5,7 +5,7 @@
 - Slides found at
 - Accidentally testing the UCAP device by leaving it on on the HYSTCOMP-TEST node, which apparently has authority to trim BHYS (despite this seemingly being impossible from the base HYSTCOMP node last Wednesday: [[03-06-26 - Parallel]])
 - BHYS increased to +0.02T, which I find suspicious because usually one would expect a negative correction. Have to compare this to way was actually being played, because I think this was SFTPRO coming off HIRADMT, and I don't know what that interface looks like.
-- Discussed the accidental test [[12-06-2026 'MD' - Accidental Testing]]
+- Discussed the accidental test [[12-06-2026 'MD']]
 - Flag for if the correction is active which is published and can be displayed in the GUI
 - Check to make sure the spare isn't being played
 ****

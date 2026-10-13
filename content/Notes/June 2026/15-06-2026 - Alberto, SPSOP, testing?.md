@@ -3,7 +3,7 @@
 	- SX.CZERO-CTML/SuperCyclePlayed
 - SPSOP meeting:
 	- Received the go-ahead to test the compensator whenever.
-- Only had a very short window to test the device, but somehow now the trims didn't work, despite [[12-06-2026 'MD' - Accidental Testing]].
+- Only had a very short window to test the device, but somehow now the trims didn't work, despite [[12-06-2026 'MD']].
 - Asked Alex, then Michi, who told me:
 	- contact ucap support
 	- get elevated rbac on that node

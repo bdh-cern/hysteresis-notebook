@@ -10,3 +10,5 @@
 - Quads also have a plateau
 - Nothing on octs
 - Not sure about sextupole but probably nothing either
+
+![[Pasted image 20260901120413.png]]
