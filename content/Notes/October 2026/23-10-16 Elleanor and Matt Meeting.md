@@ -1,0 +1,3 @@
+- Radial loop 'hides' hysteresis
+- Elleanor not working on hysteresis, instead on transfer line quality
+- 

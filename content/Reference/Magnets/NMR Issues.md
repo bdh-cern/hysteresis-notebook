@@ -21,6 +21,9 @@ Questions:
 	- Does the trigger field now occur outside the trigger window, losing it?
 
 ![[Pasted image 20260915111638.png]]
+
+![[Pasted image 20261014170631.png]]
+
 ### NMR Shifts
 
 Other times, the level of all correction appears to change for several hours. The corrections do not shift by the same amount. Note that the fields here are taken at the flat-top, which is well after the NMR correction.
@@ -46,4 +49,6 @@ Most cloning episodes are individual events, although some last for many tens of
 
 # No Injection Hysteresis
 
-![[Pasted image 20261013153509.png]]![[Pasted image 20261013153519.png]]![[Pasted image 20261013153559.png]]
+![[Pasted image 20261013153509.png]]
+![[Pasted image 20261013153519.png]]
+![[Pasted image 20261013153559.png]]

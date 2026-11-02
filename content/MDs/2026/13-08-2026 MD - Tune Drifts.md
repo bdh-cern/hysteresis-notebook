@@ -13,6 +13,7 @@ We had the kick on to get a nice clean tune reading, and the dipole hysteresis c
 	- SFTION1-SHIP-LHC3-MD1 (LHC-filling-like)
 	- SFTION1-MD1-SHIP-MD1 (SFT-physics-like)
 	- There were also some ZEROs in each
+	- See [[SHiP]]
 - We measured the tunes on the SHiP cycle (specifically MD_SHiP_L1230_Q26_S33_2026_LowInt)
 - Hysteresis compensator configuration:
 
@@ -39,7 +40,6 @@ We had the kick on to get a nice clean tune reading, and the dipole hysteresis c
 
 - I chose the kick time poorly, but we can exploit the small difference in time between the kick start and the compensation start to look at the tune with the dipole compensation both on and off.
 - There was some beam-out during the first few cycles of the SFT-like SC. This was some sort of interlock issue that Chris fixed. Unfortunately this means that it's difficult to see any fast decays (~4 cycles) which may have occurred in this region.
-- In these plots, the orbit was retrieved from BPMALPS_6:LoggingAcquisition:logDataOrbitPosStartFlatTopH (thus this is the mean orbit at the start of the flat-top in sextant 6.)
 - There were also numerous beam-out cycles after the switch back to the LHC-like SC due to some losses in the PS.
 - The dipoles seemed noisy after the switch back to the LHC-like SC. I don't know why this is, but I don't think it's a usual magnetic effect. Could be a hardware issue etc, or could be something that the MD team was changing.
 - I initially observed some strange behaviour of the tune whilst using nafflib. Using an FFT instead resolved this. The old analysis is below.
@@ -59,10 +59,15 @@ We had the kick on to get a nice clean tune reading, and the dipole hysteresis c
 	2. The compensation is applied. The orbit changes by -Xmm (the same amount in the opposite direction). The radial loop corrects this by changing the momentum by +Y ppm.
 	3. The beam now has the same momentum it would have without any hysteresis.
 
+
+Better plot using SPSQC/Orbits:
+
+![[Pasted image 20261102121415.png]]
 # Compensation Off
 
 - Plot below has reference time 4265ms (mid-FT) and tune measurement window 4440-4460ms. This is right after the kick.
 - The vertical tune is not reliable, since the vertical kick only occurs at 4480ms, 20ms after the compensation ramp happens.
+- In these plots, the orbit was retrieved from BPMALPS_6:LoggingAcquisition:logDataOrbitPosStartFlatTopH (thus this is the mean orbit at the start of the flat-top in sextant 6.)
 
 ![[Pasted image 20260818114355.png]]
 

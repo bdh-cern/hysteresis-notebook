@@ -25,6 +25,7 @@
 ![[Pasted image 20260715173909.png]]
 
 # Actual Test
+
 - After the MD was finished, I turned on the compensator and made sure it behaved as expected.
 - No corrections were applied initially as the field was already at acceptable levels.
 - Dwane played a single LHC SC at about 18:57, which immediately pushed the magnets to the hysteretic state
@@ -36,7 +37,37 @@
 - When we look at a normal LHC->SFT change, both factors drift
 - Weird note: sharing error increased when they switched to longer flat-bottom (HIRADMAT1 -> HIRADMAT2)
 
+## Timings
+
+- **The compenator ramp was at 4530ms - 4925ms cycletime, 4326-4270ms beamtime**
+	- Debunching is just after 4200ms beamtime
+	- So we can't get the compensated tune
+
+## Plots
+
+- Note that there was a single cycle where the compenation was zeroed, but Dwane hadn't yet applied the tune correction. At this point, the spill quality was still bad, and the steering was worse than what we saw with the compenator on.
+	- Therefore the compensator definitely does improve the steering and definitely does not gave an effect on the spill quality (at least in this scenario)
+
 ![[Pasted image 20260730120640.png]]
+
+---
+
+In the below, orbits are from SPSQC:Orbits and are calculated before/after the compensation ramp.
+
+![[Pasted image 20261027170027.png]]
+
+Since the dipoles are the same but the orbit differs, there must be a difference in beam energy. This would make sense as the radial loop is on.
+
+---
+
+Plotting the tune shows that it's shaped like the spill/dipole hysteresis.
+
+Note that this is the **uncompensated tune**, before the compensator ramps. Thus this is the effect of the radial loop trying to recentre the beam, affecting the energy, and hitting the tune. 
+
+The reference point for I is after the tune measurement window. Thus the change in IQF is not reflected in the tune below. Presumably the trim would have pushed it up to what it was before.
+
+![[Pasted image 20261028171338.png]]
+
 
 # Tune Considerations
 

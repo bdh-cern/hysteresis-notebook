@@ -3,6 +3,8 @@
 - 20:25 - 21:22
 - Beam back 20:20-ish
 - Now on SFTION1-MD5-LHC50NS-MD1
+- Compensator ramp: 4860-5200 (cycle; 400-740 into FT) 
+- MD5 mapped to MD_SHiP_L1230_Q26_S33_2026_LowInt
 - The dipole field looks to be where it was left. This is another indicator that temperature is not a big issue.
 - Heiko thinks that the beam energy will change even with the radial loop off, but he doesn't know by what scale. Should ask for his calculations later.
 - Missed critical cycles after switch back to the LHC-like cycle.
@@ -62,7 +64,7 @@ I wonder if the flat QH would occur in this region anyway, even without the comp
 
 # Orbit Analysis
 
-On the synchro-loop, the orbit is clearly varies, although not by that much (+-0.1mm ):
+On the synchro-loop, the orbit is clearly varies, although not by that much (+-0.1mm ).
 
 ![[Pasted image 20260902171321.png]]
 
@@ -71,6 +73,7 @@ On the synchro-loop, the orbit is clearly varies, although not by that much (+-0
 
 # Analysis
 
+On these plots, the orbit given is the average of SPSQC/ORBIT.RMS in the period 4400-5400ms
 
 ![[Pasted image 20260903110656.png]]
 

@@ -7,6 +7,7 @@ Lectures, papers and notes used for studying frequency map analysis, resonances 
 - [W. Hillert, *Transverse Linear Beam Dynamics* (CAS Introductory Course)](https://indico.cern.ch/event/1356988/contributions/5713241/attachments/2932017/5149223/TLBD.pdf): linear optics, gradient-error tune shift, beta beating, optical resonances, stopbands and auto-locking. A longer local copy (145 slides) has these on slides 117 to 124.
 - [B. J. Holzer, *Beam Optics and Lattice Design* (CAS)](https://arxiv.org/pdf/1303.6514): Twiss parameters, FODO cells, where α = 0 and β is extremal, Liouville's theorem.
 - [I. Martin, *Nonlinear Beam Dynamics*, Lecture 1](nonlinear_dynamics.pdf) ([online](https://indico.cern.ch/event/1101643/contributions/4635244/attachments/2396152/4097067/Lecture_NLBD_1.pdf)): sources of nonlinear fields, resonances and stopbands, why only low orders matter, frequency map analysis.
+- [W. Herr, *Mathematical and Numerical Methods for Non-linear Beam Dynamics*, CERN Yellow Report CERN-2014-009, pp. 157-198](https://arxiv.org/pdf/1601.05411): one-turn maps, linear and non-linear normal forms, symplectic integration of thin elements, Lie transformations, effective Hamiltonians for sextupoles and octupoles, and differential algebra.
 
 # Frequency Map Analysis
 
